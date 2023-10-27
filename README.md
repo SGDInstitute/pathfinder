@@ -34,7 +34,27 @@ php artisan key:generate
 php artisan native:install
 ```
 
-6. Run the NativePHP development server
+6. Install Tailwind dependencies
+
+```bash
+npm install
+```
+
+7. Run the NativePHP development server
+
+```bash
+php artisan native:serve
+```
+
+## Running Locally
+
+1. Run Vite
+
+```bash
+npm run dev
+```
+
+1. Run the NativePHP development server
 
 ```bash
 php artisan native:serve
