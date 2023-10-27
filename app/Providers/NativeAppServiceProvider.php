@@ -16,6 +16,7 @@ class NativeAppServiceProvider implements ProvidesPhpIni
         Window::open()
             ->width(800)
             ->height(800)
+            ->title('Name Badge Printing - Pathfinder')
             ->rememberState();
     }
 
